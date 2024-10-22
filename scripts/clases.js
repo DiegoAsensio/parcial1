@@ -30,7 +30,7 @@ class Disco {
         const totalSegundos = this.pistas.reduce((total, pista) => total + pista.duracion, 0);
         return this.formatoHHMMSS(Math.round(totalSegundos / this.pistas.length));
     }
-
+// mostrar la duración en formato HHMMSS
     formatoHHMMSS(segundos) {
         return [
             Math.floor(segundos / 3600),
