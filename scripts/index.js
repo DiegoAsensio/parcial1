@@ -107,7 +107,6 @@ function cargar() {
     const nuevoDisco = { nombre, artista, id, portada, pistas };
     discos.push(nuevoDisco);
     alert("Disco cargado exitosamente.");
-    mostrar();
 }
 
 function buscarDisco() {
